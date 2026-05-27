@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Renan Popp - Desenvolvedor Front-End</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <span class="nav-tag nav-left">Programação</span>
+    <a href="#" class="nav-logo">Renan Popp</a>
+    <span class="nav-tag nav-right">Marketing Digital</span>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-left">
+      <div class="hero-label">— Portfólio 2026</div>
+      <h1 class="hero-title">
+        Desenvolvedor em formação<br/>
+        focado em <span class="accent">Full Stack</span>.
+      </h1>
+      <p class="hero-desc">
+        Construindo projetos com foco em Full Stack, integração com banco de dados e automação. Desenvolvimento com boas práticas.
+      </p>
+      <div class="hero-btns">
+        <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+        <a href="#contato" class="btn btn-outline">Meu Contato</a>
+      </div>
+      <div class="hero-tags">
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">Make Automation</span>
+        <span class="tag">React</span>
+        <span class="tag">Node.js</span>
+        <span class="tag">Tailwind</span>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="photo-frame">
+        <img src="imgs/fotoRenanAzul.png" alt="Foto de Renan Popp" class="photo-img" />
+        <div class="photo-glow"></div>
+        <div class="photo-badge">Disponível para estágio</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE MIM -->
+  <section class="sobre" id="sobre">
+    <div class="section-label">— Sobre Mim</div>
+    <div class="sobre-grid">
+      <div class="sobre-title-col">
+        <h2 class="section-title">Desenvolvedor<br/><span class="accent">Front-End</span></h2>
+        <div class="sobre-line"></div>
+      </div>
+      <div class="sobre-text-col">
+        <p>
+          Sou o Renan, tenho 18 anos, recém-formado no Ensino Médio e estou fazendo curso técnico de Desenvolvimento de Sistemas na <strong>ETEC de Itaquera</strong>. Gosto muito dessa parte de tecnologia e estou cada vez mais interessado por essa área, especialmente pelo desenvolvimento web e as diversas possibilidades que suas tecnologias oferecem.
+        </p>
+        <p>
+          Na ETEC estou adquirindo conhecimentos sólidos em <strong>HTML, CSS, JavaScript, MySQL</strong>, Análise e Projetos de Sistemas, habilidades em design de interfaces e desenvolvimento de aplicações web.
+        </p>
+        <div class="sobre-info">
+          <div class="info-item">
+            <span class="info-label">Localização</span>
+            <span class="info-val">São Paulo – SP</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Formação</span>
+            <span class="info-val">Téc. Sistemas · ETEC Itaquera</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Status</span>
+            <span class="info-val status-dot">Disponível para estágio</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section class="projetos" id="projetos">
+    <div class="section-label">— Projetos</div>
+    <h2 class="section-title">Projeto que fiz e participei da <span class="accent">construção</span></h2>
+    <!-- <p class="section-sub">Cada projeto foi um problema real que eu quis resolver.</p> -->
+
+    <div class="projects-grid">
+
+      <!-- Projeto 1 -->
+      <div class="project-card">
+        <div class="project-screenshot">
+          <img src="imgs/projetoTCCetec.png" alt="Foto Site do TCC ETEC" class="project-img" />
+          <div class="project-overlay">
+            <span class="project-num">01</span>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-name">GreenSpace - Site TCC Etec</h3>
+          <p class="project-desc">Plataforma que centraliza cuidados botânicos e facilita o cultivo doméstico com acesso simples a informações.</p>
+          <div class="project-tech">
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">FireBase</span>
+            <span class="tech-tag">EmailJS</span>
+          </div>
+          <div class="project-insight">
+            <div class="insight-block">
+              <span class="insight-label">Desafio</span>
+              <p>Fazer funções com JavaScript e integração com banco de dados FireBase.</p>
+            </div>
+            <div class="insight-block">
+              <span class="insight-label">Aprendizado</span>
+              <p>Integração com FireBase, funções em JavaScript, deploy, automação de envio de emails com EmailJS,
+                criando fluxo completo de captura e resposta de leads.</p>
+              </div>
+          </div>
+          <div class="project-links">
+            <a href="https://green-space-ashy.vercel.app" target="_blank" class="project-link link-live">Ver ao vivo ↗</a>
+            <a href="https://github.com/greenspaceetecitaquera-dev" target="_blank" class="project-link link-github">GitHub →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projeto 2 -->
+      <div class="project-card">
+        <div class="project-screenshot">
+          <img src="imgs/siteCapturaLeads.png" alt="Site Captura de Leads" class="project-img" />
+          <div class="project-overlay">
+            <span class="project-num">02</span>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-name">Captura de Leads</h3>
+          <p class="project-desc">Sistema de captura e automação de leads com armazenamento em banco de dados,
+            registro em planilha e sequência automatizada de e-mails por 7 dias.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">FireBase</span>
+            <span class="tech-tag">Make Automation</span>
+          </div>
+          <div class="project-insight">
+            <div class="insight-block">
+              <span class="insight-label">Desafio</span>
+              <p>Salva no FireBase, fazer a automatização no Make Automation para receber dados e fazer sequência de e-mails</p>
+            </div>
+            <div class="insight-block">
+              <span class="insight-label">Aprendizado</span>
+              <p>Criação de fluxo completo de captura e nutrição de leads,
+                integrando frontend, banco de dados e automação de e-mails.
+              </p>
+            </div>
+          </div>
+          <div class="project-links">
+            <a href="https://suarendaextra-digital.vercel.app" target="_blank" class="project-link link-live">Ver ao vivo ↗</a>
+            <a href="https://github.com/renanpopp30/suarendaextra-digital" target="_blank" class="project-link link-github">GitHub →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projeto 3 -->
+      <div class="project-card">
+        <div class="project-screenshot">
+          <img src="imgs/siteiPhone17.png" alt="Site iPhone 17 Pro" class="project-img" />
+          <div class="project-overlay">
+            <span class="project-num">03</span>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-name">Site iPhone 17 Pro</h3>
+          <p class="project-desc">Landing page do iPhone 17 Pro, com foco em design fiel à Apple — tipografia precisa, visual clean e apresentação visual dos recursos do produto.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">Tailwind</span>
+          </div>
+          <div class="project-insight">
+            <div class="insight-block">
+              <span class="insight-label">Desafio</span>
+              <p>Criar o design da Apple com React e Tailwind, respeitando proporções, identidade visual da marca.</p>
+            </div>
+            <div class="insight-block">
+              <span class="insight-label">Aprendizado</span>
+              <p>Aprofundamento em componentes React, uso avançado de Tailwind para layouts precisos e como criar experiências visuais de alto impacto.</p>
+            </div>
+          </div>
+          <div class="project-links">
+            <a href="https://renan-iphone17.vercel.app/" target="_blank" class="project-link link-live">Ver ao vivo ↗</a>
+            <a href="https://github.com/renanpopp30/renan-iphone17" target="_blank" class="project-link link-github">GitHub →</a>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Projeto 4 -->
+      <div class="project-card">
+        <div class="project-screenshot">
+          <img src="imgs/siteViagens.png" alt="Site Agência de Viagens" class="project-img" />
+          <div class="project-overlay">
+            <span class="project-num">04</span>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-name">Site Agência Viagens</h3>
+          <p class="project-desc">Plataforma web de agência de viagens com múltiplas páginas,
+            exibição de pacotes e navegação entre destinos, simulando
+            um ambiente real de vendas de viagens.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">JavaScript</span>
+          </div>
+          <div class="project-insight">
+            <div class="insight-block">
+              <span class="insight-label">Desafio</span>
+              <p>Organizar grande quantidade de páginas e conteúdos,
+                mantendo navegação consistente e estrutura do site.</p>
+            </div>
+            <div class="insight-block">
+              <span class="insight-label">Aprendizado</span>
+              <p>Estruturação de sites multi-páginas, organização de layout
+                e melhoria na experiência de navegação do usuário.
+              </p>
+            </div>
+          </div>
+          <div class="project-links">
+            <a href="https://agencia-de-viagens-web.vercel.app" target="_blank" class="project-link link-live">Ver ao vivo ↗</a>
+            <a href="https://github.com/greenspaceetecitaquera-dev" target="_blank" class="project-link link-github">GitHub →</a>
+          </div>
+        </div>
+      </div>
+
+      
+
+
+    </div>
+  </section>
+
+  <!-- HABILIDADES -->
+  <section class="habilidades" id="habilidades">
+    <div class="section-label">— Habilidades</div>
+    <h2 class="section-title">Tecnologias que <span class="accent">utilizo</span></h2>
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <div class="skill-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.136 3.012h15.729l-1.431 16.078-6.438 1.798-6.427-1.8zm13.394 2H6.471l1.172 13.148 4.357 1.215 4.363-1.215z"/><path d="M16.938 7.952l-.217-2.43H7.007l.651 7.22h7.35l-.244 2.705-2.764.745-2.794-.748-.178-1.967H6.935l.351 3.93 4.714 1.31 4.703-1.31.638-7.15H8.38l-.21-2.305z"/></svg>
+        </div>
+        <span class="skill-name">HTML</span>
+        <div class="skill-bar"><div class="skill-fill" style="--w:90%"></div></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon" style="color:#264de4">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.192 3.143h15.615l-1.42 16.034-6.404 1.812-6.369-1.813L4.192 3.143zm13.278 2.049H6.53l1.157 13.04 4.313 1.218 4.32-1.218 1.15-13.04z"/><path d="M12 18.548l-.001-.001-3.717-1.05-.252-2.829H9.99l.126 1.41 1.884.518 1.884-.517.2-2.24H8.521l-.36-4.04h7.678l-.12 1.35h-6.07l.12 1.37h5.83l-.36 4.03L12 18.548z"/></svg>
+        </div>
+        <span class="skill-name">CSS</span>
+        <div class="skill-bar"><div class="skill-fill" style="--w:85%"></div></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon" style="color:#f7df1e; background:#1a1a00;">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 3h18v18H3V3zm16.525 13.707c-.131-.821-.666-1.511-2.252-2.155-.552-.259-1.165-.438-1.349-.854-.068-.248-.078-.382-.034-.529.113-.484.687-.629 1.137-.495.293.09.563.315.732.690.775-.507.775-.507 1.316-.844-.203-.314-.304-.451-.439-.586-.473-.528-1.103-.798-2.126-.775l-.528.067c-.507.124-.991.395-1.283.754-.855.968-.608 2.655.427 3.354 1.023.765 2.521.933 2.712 1.653.18.878-.652 1.159-1.475 1.058-.607-.136-.945-.439-1.316-1.002l-1.372.788c.157.359.337.517.607.832 1.305 1.316 4.568 1.249 5.153-.754.021-.067.18-.528.056-1.237l.034.049zm-6.737-5.434h-1.686c0 1.453-.007 2.898-.007 4.354 0 .924.047 1.772-.104 2.033-.247.517-.886.451-1.175.359-.297-.146-.448-.349-.623-.641-.047-.078-.082-.146-.095-.146l-1.368.844c.229.473.563.879.994 1.137.641.383 1.502.507 2.404.305.588-.17 1.095-.519 1.358-1.059.384-.697.302-1.553.299-2.509.008-1.541 0-3.083 0-4.635l.003-.042z"/></svg>
+        </div>
+        <span class="skill-name">JavaScript</span>
+        <div class="skill-bar"><div class="skill-fill" style="--w:70%"></div></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon" style="color:#7c3aed">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/></svg>
+        </div>
+        <span class="skill-name">Make Automation</span>
+        <div class="skill-bar"><div class="skill-fill" style="--w:75%"></div></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon" style="color:#539e43">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M11.998 24a2.338 2.338 0 0 1-1.168-.312l-3.747-2.218c-.559-.314-.285-.425-.103-.49.748-.261.898-.32 1.694-.773.083-.047.192-.03.277.019l2.879 1.706a.37.37 0 0 0 .342 0l11.221-6.478a.344.344 0 0 0 .172-.299V7.846a.35.35 0 0 0-.174-.303L12.17 1.073a.342.342 0 0 0-.34 0L.613 7.549a.35.35 0 0 0-.175.302v12.948c0 .122.066.236.174.299l3.076 1.776c1.668.836 2.687-.149 2.687-1.138V8.862a.316.316 0 0 1 .317-.315h1.384a.314.314 0 0 1 .315.315V21.74c0 2.23-1.214 3.51-3.327 3.51-.649 0-1.161 0-2.591-.705L.531 22.836A2.342 2.342 0 0 1 0 20.836V7.847a2.34 2.34 0 0 1 1.17-2.028L12.39.344a2.36 2.36 0 0 1 2.338 0l11.22 6.476A2.342 2.342 0 0 1 27.118 8.847v-.001 12.948a2.35 2.35 0 0 1-1.17 2.031l-11.222 6.478a2.338 2.338 0 0 1-1.168.312h-.56z"/>
+          </svg>
+        </div>
+        <span class="skill-name">Node.js</span>
+        <div class="skill-bar"><div class="skill-fill" style="--w:45%"></div></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon" style="color:#61dafb">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38a2.167 2.167 0 0 0-1.097-.278zm-.005 1.09c.278 0 .487.06.65.155.474.274.673 1.006.577 2.092a19.394 19.394 0 0 0-.388-.047c-.508-.056-1.09-.087-1.716-.087-.623 0-1.208.03-1.742.085l-.365.044c-.1-1.082.1-1.81.575-2.082a1.08 1.08 0 0 1 .545-.137l.004-.003.86-.02zm-9.744.025c.276 0 .508.07.69.18.476.274.676 1.006.578 2.09a21.07 21.07 0 0 0-.396.047c-.508.056-1.09.087-1.716.087-.623 0-1.208-.03-1.74-.085l-.367-.044c-.1-1.082.1-1.81.574-2.082a1.08 1.08 0 0 1 .546-.138l.004-.003.827-.052zm4.88 1.058c.67 0 1.316.032 1.894.09.576.056 1.104.145 1.57.263.464.118.87.27 1.196.449.327.18.57.384.72.598.15.215.228.45.228.696 0 .245-.078.48-.227.695-.15.214-.394.418-.72.598-.327.18-.732.33-1.197.45-.466.118-.994.207-1.57.262-.578.057-1.224.09-1.893.09-.67 0-1.316-.033-1.893-.09-.577-.055-1.105-.144-1.57-.263-.465-.119-.87-.27-1.197-.45-.326-.18-.57-.383-.72-.597a1.352 1.352 0 0 1-.228-.695c0-.246.077-.48.227-.696.15-.214.394-.418.72-.598.328-.179.733-.33 1.198-.449.465-.118.993-.207 1.57-.262.577-.058 1.222-.09 1.892-.09zm0 1.077c-.633 0-1.247.03-1.796.086-.548.055-1.036.137-1.446.24-.41.103-.73.228-.944.358-.215.13-.318.268-.318.387 0 .12.103.258.318.387.214.13.534.255.944.358.41.103.898.185 1.446.24.55.056 1.163.086 1.796.086.633 0 1.247-.03 1.796-.086.548-.055 1.036-.137 1.445-.24.41-.103.73-.228.944-.358.215-.13.318-.268.318-.387 0-.12-.103-.258-.318-.387-.214-.13-.534-.255-.944-.358-.41-.103-.897-.185-1.445-.24a20.26 20.26 0 0 0-1.796-.086zM7.809 8.74c.313.539.612 1.13.884 1.762.27.63.514 1.282.727 1.94-.213.66-.457 1.311-.727 1.942a18.87 18.87 0 0 1-.884 1.76 19.68 19.68 0 0 1-1.04-1.594 17.97 17.97 0 0 1-.747-1.732c.218-.588.473-1.164.747-1.712.275-.55.568-1.073.876-1.56l.164-.267.003-.005v-.003l-.003.003zm8.383 0c.308.487.6 1.01.876 1.56.274.548.53 1.124.747 1.712a17.97 17.97 0 0 1-.747 1.732 19.68 19.68 0 0 1-1.04 1.594 18.87 18.87 0 0 1-.884-1.76c-.27-.63-.514-1.283-.727-1.942.213-.658.457-1.31.727-1.94a18.87 18.87 0 0 1 .884-1.762l.164.267v-.003l.003.003-.003-.003zM12 9.927c.346 0 .69.008 1.028.023.338.016.67.042.992.078.32.036.626.084.907.144.28.06.534.133.754.218.22.084.404.18.543.286.14.105.214.222.214.342 0 .12-.074.237-.214.342-.14.106-.322.202-.543.286-.22.085-.473.158-.754.218-.28.06-.587.108-.907.144-.321.036-.654.062-.992.078A19.44 19.44 0 0 1 12 11.69c-.346 0-.69-.008-1.028-.023a17.498 17.498 0 0 1-.992-.078 10.6 10.6 0 0 1-.907-.144 5.697 5.697 0 0 1-.754-.218 2.494 2.494 0 0 1-.543-.286c-.14-.105-.214-.222-.214-.342 0-.12.074-.237.214-.342.14-.106.322-.202.543-.286.22-.085.473-.158.754-.218.28-.06.587-.108.907-.144.321-.036.654-.062.992-.078A19.44 19.44 0 0 1 12 9.927zm0 1.077a19.19 19.19 0 0 0-.994.023 16.34 16.34 0 0 0-.944.074 9.5 9.5 0 0 0-.818.13 5.03 5.03 0 0 0-.618.179c-.17.065-.295.137-.372.207.077.07.202.142.372.207.17.065.383.123.618.179.235.056.52.1.818.13.298.03.614.055.944.073.33.018.664.024.994.024.33 0 .664-.006.994-.024.33-.018.646-.043.944-.074.298-.03.583-.073.818-.13.235-.055.448-.113.618-.178.17-.065.295-.137.372-.207-.077-.07-.202-.142-.372-.207a5.03 5.03 0 0 0-.618-.179 9.5 9.5 0 0 0-.818-.13 16.34 16.34 0 0 0-.944-.073A19.19 19.19 0 0 0 12 11.004zm-4.867 2.657c.213.658.457 1.31.727 1.94.27.632.57 1.224.884 1.762l-.164.267-.003.003.003-.003c-.308-.487-.6-1.01-.876-1.56a17.97 17.97 0 0 1-.747-1.712c.218-.588.474-1.164.747-1.712.276-.55.568-1.073.876-1.56l.164.267c-.314.486-.606 1.02-.884 1.76zm9.734 0a18.87 18.87 0 0 1-.884-1.762l-.164-.267c.308.487.6 1.01.876 1.56.274.548.53 1.124.747 1.712a17.97 17.97 0 0 1-.747 1.712c-.276.55-.568 1.073-.876 1.56l-.164-.267c.314-.538.614-1.13.884-1.762.27-.63.514-1.282.727-1.94-.213-.658-.457-1.31-.727-1.94zM5.25 14.784c.532.055 1.117.085 1.74.085.627 0 1.208-.03 1.716-.086.13-.015.255-.03.374-.047.098 1.083-.1 1.812-.575 2.083-.18.104-.388.155-.645.155h-.005l-.86-.02-.004-.003a1.08 1.08 0 0 1-.545-.138c-.475-.272-.675-1.004-.577-2.082l.381.053zm13.5 0 .381-.053c.099 1.082-.1 1.81-.575 2.082a1.08 1.08 0 0 1-.545.138l-.004.003-.86.02h-.005c-.257 0-.465-.051-.645-.155-.475-.271-.673-1-.576-2.083l.374.047c.508.056 1.09.086 1.716.086.623 0 1.208-.03 1.74-.085z"/>
+          </svg>
+        </div>
+        <span class="skill-name">React</span>
+        <div class="skill-bar"><div class="skill-fill" style="--w:40%"></div></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon" style="color:#06b6d4">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12.001 4.8c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12.001 4.8zm-6 7.2c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624 1.177 1.194 2.538 2.576 5.512 2.576 3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C10.337 13.382 8.976 12 6.001 12z"/>
+          </svg>
+        </div>
+        <span class="skill-name">Tailwind CSS</span>
+        <div class="skill-bar"><div class="skill-fill" style="--w:40%"></div></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="contato" id="contato">
+    <div class="section-label">— Contato</div>
+    <h2 class="section-title">Vamos <span class="accent">conversar</span></h2>
+    <p class="section-sub">Aberto a oportunidades de estágio e projetos colaborativos.</p>
+
+    <div class="contato-grid">
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=renanpoppdarocha@gmail.com" target="_blank" class="contato-card">
+        <div class="contato-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        </div>
+        <div>
+          <span class="contato-label">Email</span>
+          <span class="contato-val">renanpoppdarocha@gmail.com</span>
+        </div>
+        <span class="contato-arrow">↗</span>
+      </a>
+
+      <a href="https://www.linkedin.com/in/renan-popp-da-rocha-92ab7b367/" target="_blank" class="contato-card">
+        <div class="contato-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </div>
+        <div>
+          <span class="contato-label">LinkedIn</span>
+          <span class="contato-val">Renan Popp da Rocha</span>
+        </div>
+        <span class="contato-arrow">↗</span>
+      </a>
+
+      <a href="https://github.com/greenspaceetecitaquera-dev" target="_blank" class="contato-card">
+        <div class="contato-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+        </div>
+        <div>
+          <span class="contato-label">GitHub</span>
+          <span class="contato-val">Renan-Popp</span>
+        </div>
+        <span class="contato-arrow">↗</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <span class="footer-logo">Renan Popp</span>
+    </div>
+    <div class="footer-divider"></div>
+    <p class="footer-sub">Projetos versionados no GitHub e hospedados no Vercel.</p>
+    <p class="footer-copy">© 2026 Renan Popp — Desenvolvido com HTML, CSS & JS</p>
+  </footer>
+
+</body>
+</html>
